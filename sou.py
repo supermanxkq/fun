@@ -37,6 +37,7 @@ def get_html(site_url):
 total = 0
 for key_word in key_words.split(','):
     with open(key_word + '.txt', 'a') as f:
+        print('搜索...', key_word)
         for i in range(5):
             seed_search_url_decode = binascii.a2b_hex(seed_search_url).decode("utf8")
             html = get_html(seed_search_url_decode+'list/'+quote(key_word)+'/%d' % (i+1)).decode('utf-8')
@@ -48,7 +49,7 @@ for key_word in key_words.split(','):
                 total += 1
                 print('写入', url)
                 f.write(url + '\n')
-            time.sleep(random.uniform(5, 10))  # 为了保证服务器reset，多延迟一会儿，随机值防 ban
+            time.sleep(random.uniform(1, 1.1))  # 为了保证服务器reset，多延迟一会儿，随机值防 ban
     print('写入', key_word, '的种子完毕！')
 print('=========共写入'+str(total)+'个种子！======')
 
