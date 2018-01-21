@@ -49,7 +49,7 @@ for key_word in key_words.split(','):
                 total += 1
                 print('写入', url)
                 f.write(url + '\n')
-            time.sleep(random.uniform(1, 1.1))  # 为了保证服务器reset，多延迟一会儿，随机值防 ban
+            time.sleep(random.uniform(5, 10))  # 为了保证服务器reset，多延迟一会儿，随机值防 ban
     print('写入', key_word, '的种子完毕！')
 print('=========共写入'+str(total)+'个种子！======')
 
