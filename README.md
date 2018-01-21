@@ -1,8 +1,8 @@
 # 下载电影小工具
 
 * 运行效果
-    ![运行效果](https://https://github.com/supermanxkq/fun/tree/master/img/WX20180121-235229@2x.png)
-    ![运行效果](https://github.com/supermanxkq/fun/tree/master/img/WX20180122-000056@2x.png)
+    ![运行效果](https://github.com/supermanxkq/fun/blob/master/img/WX20180122-000056@2x.png?raw=true)
+    ![运行效果](https://github.com/supermanxkq/fun/blob/master/img/WX20180121-235229@2x.png?raw=true)
 # ======思路=======
 1. 读取配置的网站地址
 2. 根据关键字查找对应的资源  urllib,re 正则表达式
