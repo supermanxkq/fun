@@ -1,7 +1,7 @@
 # 下载电影小工具
 
 * 运行效果
-    ![运行效果](https://github.com/supermanxkq/fun/blob/master/img/WX20180122-000056@2x.png?raw=true)
+    ![运行效果](img/WX20180122-000056@2x.png)
 
     ![运行效果](https://github.com/supermanxkq/fun/blob/master/img/WX20180121-235229@2x.png?raw=true)
 # ======思路=======
