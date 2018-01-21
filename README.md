@@ -3,7 +3,7 @@
 * 运行效果
     ![运行效果](img/WX20180122-000056@2x.png)
 
-    ![运行效果](https://github.com/supermanxkq/fun/blob/master/img/WX20180121-235229@2x.png?raw=true)
+    ![运行效果](img/WX20180121-235229@2x.png?raw=true)
 # ======思路=======
 1. 读取配置的网站地址
 2. 根据关键字查找对应的资源  urllib,re 正则表达式
@@ -21,5 +21,5 @@
 * pycharm右键运行sou.py，或者命令行直接运行 ```python3 sou.py```
 * 下载迅雷
 * 设置中选中响应剪贴板
-   ![选中响应剪贴板](https://github.com/supermanxkq/fun/blob/master/img/WX20180121-234816@2x.png?raw=true)
+   ![选中响应剪贴板](img/WX20180121-234816@2x.png?raw=true)
 * 复制当前项目下生成的种子文件，下载电影。
