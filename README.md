@@ -20,5 +20,5 @@
 * pycharm右键运行sou.py，或者命令行直接运行 ```python3 sou.py```
 * 下载迅雷
 * 设置中选中响应剪贴板
-   ![选中响应剪贴板](https://github.com/supermanxkq/fun/tree/master/img/WX20180121-234816@2x.png)
+   ![选中响应剪贴板](https://github.com/supermanxkq/fun/blob/master/img/WX20180121-234816@2x.png?raw=true)
 * 复制当前项目下生成的种子文件，下载电影。
